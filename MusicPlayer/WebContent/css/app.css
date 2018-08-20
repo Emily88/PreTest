@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+.musicPlayer {
+	width: 600px;
+	background: #FCF0F8;
+}
+
+.music {
+	width: 100%;
+	cursor: pointer;
+}
+
+.music input {
+	float: left;
+}
+
+.music div:nth-child(2) {
+	float: left;
+}
+
+.music div:nth-child(3) {
+	margin-left: 300px;
+}
+
+.playInfo .title {
+	float: left;
+}
+
+.playInfo .time {
+	width: 100px;
+	margin-left: 300px;
+}
+
+.progress {
+	width: 100%;
+	background-color: #ddd;
+}
+
+.curProgress {
+	width: 0px;
+	height:30px;
+	background-color: #4CAf50;
+}
+
+.tap > div {
+	float: left;
+	width: 100px;
+	cursor: pointer;
+}
+
+.listView {
+	position: absolute;
+    width: 100%;
+    margin-top: 25px;
+}
